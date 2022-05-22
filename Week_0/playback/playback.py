@@ -10,3 +10,8 @@ for i in range(len(txt)):
         # Caso nao exista espaco, imprime o caractere
         print(txt[i], end="")
 print()   
+
+#------------------------------------------------------------------------------
+# O mesmo codigo em duas linhas
+txt1 = input()
+print(txt1.replace(" ", "..."))
