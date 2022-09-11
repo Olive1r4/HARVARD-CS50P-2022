@@ -1,9 +1,9 @@
-#Programa solicita uma entrada de string
+#recebe um input do usuário e retorna o valor digitado
 txt = input()
-#Verifica se a string e caixa baixa
+# verifica se o valor digitado está em caixa baixa
 if txt.islower():
-    #Caso seja caixa baixa, converte para caixa alta
+    # se estiver em caixa baixa, converte para caixa alta
     print(txt.upper())
 else:
-    #Caso nao seja caixa baixa, converte para caixa baixa
+    # se não estiver em caixa baixa, imprime o valor digitado
     print(txt.lower())

@@ -1,17 +1,11 @@
-# Recebe o input do usuário
+#Recebe um input do usuario
 txt = input()
-# Percorre a string
+#Percorre a string e verifica sem tem espaço
 for i in range(len(txt)):
-    # Verifica se existe espaco no input digitado
+    #Se tiver espaço, substitui por "..."
     if txt[i] == " ":
-        # Caso exista espaco, substitui por "..."
         print("...", end="")
     else:
-        # Caso nao exista espaco, imprime o caractere
+        #Se não tiver espaço, imprime o valor até acabar a string
         print(txt[i], end="")
-print()   
-
-#------------------------------------------------------------------------------
-# O mesmo codigo em duas linhas
-txt1 = input()
-print(txt1.replace(" ", "..."))
+print()
